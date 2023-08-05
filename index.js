@@ -2,6 +2,7 @@ let nombreUsuario = prompt("Ingrese su nombre");
 let saludo = "Hola" + " " + nombreUsuario + ", " + "bienvenido a zComputación";
 alert(saludo);
 
+function comprar(){
 const precioGrafica = 300000;
 const precioTeclado = 20000;
 
@@ -32,3 +33,6 @@ while (true) {
 }
 
 alert("El costo total es: " + costoTotal);
+}
+
+comprar();
